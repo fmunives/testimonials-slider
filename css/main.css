@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: hsl(240, 38%, 20%);
+  --grayish-blue: hsl(240, 18%, 77%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  /* font-size: 32px; */
+}
+
+.UX,
+.frontend {
+  padding: 20px;
+}
+
+.containger-image {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.pattern {
+  width: 100%;
+}
+
+.person {
+  top: 0;
+  left: 50%;
+  position: absolute;
+  width: 80%;
+  transform: translateX(-50%);
+}
+
+.button {
+  padding: 15px;
+  width: 25%;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: -10px -5px 35px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.button img {
+  height: 12px;
+}
+
+@media (min-width: 768px) {
+}
