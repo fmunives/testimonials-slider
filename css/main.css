@@ -15,9 +15,22 @@ body {
   /* font-size: 32px; */
 }
 
-.UX,
-.frontend {
-  padding: 20px;
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .containger-image {
@@ -27,14 +40,22 @@ body {
 }
 
 .pattern {
-  width: 100%;
+  width: 335px;
 }
 
 .person {
   top: 0;
   left: 50%;
   position: absolute;
-  width: 80%;
+  width: 300px;
+  transform: translateX(-50%);
+}
+
+.person2 {
+  top: 0;
+  left: 50%;
+  position: absolute;
+  width: 300px;
   transform: translateX(-50%);
 }
 
@@ -48,10 +69,56 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 230px;
 }
 
 .button img {
   height: 12px;
+}
+
+.quotes {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.quotes img {
+  width: 22%;
+}
+
+.description {
+  text-align: center;
+  color: var(--dark-blue);
+  font-weight: 300;
+}
+
+.job {
+  color: var(--grayish-blue);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.name {
+  color: var(--dark-blue);
+  display: block;
+}
+
+.frontend {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.curve {
+  width: 100%;
+}
+
+.curve img {
+  margin-top: 1.5em;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
